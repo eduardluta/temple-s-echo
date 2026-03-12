@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "Home",
+    "theStory": "The Story",
+    "contact": "Contact",
+    "readTheStory": "Read the Story"
+  },
+  "hero": {
+    "tagline": "Documentary \u00b7 History \u00b7 Sacred Architecture",
+    "title": "Solomon's Temple",
+    "hebrew": "\u05d1\u05b5\u05bc\u05d9\u05ea \u05d4\u05b7\u05de\u05b4\u05bc\u05e7\u05b0\u05d3\u05b8\u05bc\u05e9\u05c1",
+    "subtitle": "\"From the Gold of the First Temple to the Light of the Third\"",
+    "description": "Journey into the heart of ancient Jerusalem \u2014 into the sacred chambers where heaven and earth were said to meet. This documentary explores Solomon's legendary Temple: its breathtaking architecture, its sacred objects, its catastrophic destruction, and the timeless Jewish hope for its restoration.",
+    "watchFilm": "Watch the Film",
+    "readFullStory": "Read the Full Story"
+  },
+  "video": {
+    "label": "Watch Now",
+    "title": "The Documentary",
+    "iframeTitle": "Solomon's Temple Documentary",
+    "caption": "Approx. 15 minutes \u00b7 Subtitles available"
+  },
+  "intro": {
+    "title": "A Structure Unlike Any Other",
+    "text": "Around 950 BCE, King Solomon erected the Beit HaMikdash on Mount Moriah \u2014 the same rock where Abraham was tested and, according to tradition, where creation itself began. For nearly four centuries, this Temple served as the spiritual center of the Jewish people, and its memory has endured for three millennia."
+  },
+  "features": {
+    "label": "Explore",
+    "title": "Inside the Temple",
+    "card1": {
+      "category": "Architecture",
+      "title": "The Sacred Courtyards",
+      "text": "From the outer courts to the innermost sanctuary \u2014 a journey through the tiered holy spaces of the First Temple."
+    },
+    "card2": {
+      "category": "Sacred Objects",
+      "title": "The Menorah & Holy Vessels",
+      "text": "Ten golden menorot, the showbread, and the golden incense altar \u2014 objects charged with divine purpose."
+    },
+    "card3": {
+      "category": "Holy of Holies",
+      "title": "The Ark of the Covenant",
+      "text": "In the innermost chamber, behind a curtain of 72 threads, rested the Aron HaBrit \u2014 the source of divine presence."
+    }
+  },
+  "quoteBanner": {
+    "quote": "From the Ark, say the sages, emanated the spiritual life of the world.",
+    "cta": "Read the Full Story"
+  },
+  "download": {
+    "label": "Resources",
+    "title": "Download the Full Document",
+    "text": "Get the complete documentary companion guide with detailed descriptions, historical timelines, and scriptural references.",
+    "english": "English PDF",
+    "german": "German PDF"
+  },
+  "blog": {
+    "backHome": "\u2190 Back to Home",
+    "label": "Featured Article",
+    "title": "Solomon's Temple: Architecture, Sacred Objects & the Promise of the Third Temple",
+    "byline": "By the Beit HaMikdash Editorial Team",
+    "date": "March 2025",
+    "readTime": "12 min read",
+    "intro": "Around 950 BCE, on Mount Moriah in Jerusalem \u2014 the same rock where Abraham was tested and creation is said to have begun \u2014 King Solomon built the First Temple. Seven years of construction, cedarwood from Lebanon, and stone shaped in secret (so that no hammer rang on the Temple Mount) produced one of the ancient world's most sacred structures.",
+    "sections": {
+      "courtyards": {
+        "title": "The Courtyards",
+        "imageAlt": "Temple outer courtyard",
+        "content": "The Temple complex opened with a great outer courtyard, entered through massive bronze-covered gates. Beyond it lay the inner courtyard (Azarah), built from three layers of smooth stone and one layer of cedar beams \u2014 the boundary between the people and the priests. This architectural layering was deliberate: each threshold carried the worshipper deeper into holiness, further from the mundane world."
+      },
+      "altar": {
+        "title": "The Altar and the Bronze Sea",
+        "content": "At the center of the inner courtyard stood a monumental bronze altar \u2014 roughly 10m \u00d7 10m \u00d7 5m \u2014 where a perpetual fire burned day and night without cease. Nearby, the Bronze Sea (Yam shel Nechoshet), a basin 5 meters in diameter holding over 60,000 liters of water, rested upon 12 bronze oxen arranged in groups of three, facing the four directions. Ten ornate bronze basins on wheeled stands were used for the ritual purification of offerings before they were brought to the altar."
+      },
+      "pillars": {
+        "title": "The Two Pillars",
+        "content": "Two freestanding bronze pillars, each 12 meters high, flanked the entrance porch to the Temple. The right pillar was called Yachin (\"He will strengthen\") and the left was called Boaz (\"In him is strength\"). Remarkably, they bore no structural weight whatsoever \u2014 they were purely symbolic, proclaiming the divine covenant with the Davidic dynasty and the eternal covenant with Israel."
+      },
+      "sanctuary": {
+        "title": "The Sanctuary (Heichal)",
+        "imageAlt": "The Golden Menorah of the Sanctuary",
+        "content": "The main hall \u2014 21m long, 10m wide, and 16m high \u2014 was lined entirely in cedarwood and overlaid with the finest gold. It housed ten golden menorot (candelabras), though only Moses' original Menorah was lit each evening. Ten golden tables held the Showbread, yet only Moses' original table held the 12 loaves (Lechem HaPanim), which, according to tradition, miraculously remained fresh for seven days. The Golden Incense Altar was burned twice daily with a secret eleven-ingredient blend known only to the Avtinas family.",
+        "list": [
+          "10 golden menorot \u2014 only Moses' original Menorah was lit",
+          "10 golden tables \u2014 only Moses' table held the miraculous 12 loaves",
+          "The Golden Incense Altar \u2014 a secret 11-ingredient blend burned twice daily"
+        ]
+      },
+      "holies": {
+        "title": "The Holy of Holies (Kodesh HaKodashim)",
+        "content": "A perfect cube \u2014 10.5m \u00d7 10.5m \u00d7 10.5m \u2014 with no windows, its walls and floor covered entirely in gold. Two cherubim (Keruvim) of olive wood, each five meters tall, stood within with wings extended and touching across the width of the room. They were separated from the Sanctuary by the Parochet \u2014 a curtain woven from 72 threads, each thread itself twisted from 24 individual threads, making it effectively impenetrable. Only the High Priest (Kohen Gadol) was permitted to enter this room, and only once a year \u2014 on Yom Kippur, the Day of Atonement."
+      },
+      "ark": {
+        "title": "The Ark of the Covenant",
+        "imageAlt": "The Ark of the Covenant",
+        "content": "At the heart of the Holy of Holies rested the Aron HaBrit \u2014 the Ark of the Covenant \u2014 containing the two stone Tablets of the Law given to Moses at Sinai. Atop the Ark rested the golden cover (Kapporet), from which two golden Keruvim with childlike faces and eagle-like wings spread outward in an embrace. It is from the space between these wings, say the sages, that \"the spiritual life of the world emanated\" \u2014 the place where the voice of the Divine spoke to Moses.",
+        "quote": "From it, say the sages, 'emanated the spiritual life of the world.'"
+      },
+      "destruction": {
+        "title": "Destruction & Hidden Treasures",
+        "content": "In 586 BCE \u2014 the year 3,338 in the Hebrew calendar \u2014 Nebuchadnezzar's Babylonian army breached the walls of Jerusalem and destroyed the Temple on the 9th of Av (Tisha B'Av), a date that would become forever marked by national mourning. According to tradition, King Josiah had foreseen the catastrophe and, in advance, hidden the Ark of the Covenant, the original Menorah, and the miraculous jar of manna \u2014 concealing them in an underground passage beneath the Temple Mount, where they await the time of ultimate redemption."
+      },
+      "thirdTemple": {
+        "title": "The Third Temple",
+        "content": "The great medieval sage Maimonides (Rambam) writes that the Messiah will rebuild the Temple and gather the scattered of Israel from their exile. The Midrash teaches something more mystical still: that the Third Temple has already been completed in Heaven, fashioned from divine light, and will one day descend to the earth. The prophet Zechariah proclaims the ultimate vision: \"On that day, the Eternal One will be One and His name will be One.\"",
+        "quote": "\"On that day, the Eternal One will be One and His name will be One.\" \u2014 Zechariah 14:9"
+      }
+    },
+    "closing": "The Temple was destroyed, but its memory was never extinguished. Every year, Jews around the world turn toward Jerusalem and whisper the same ancient hope:",
+    "closingHebrew": "l'shanah ha-ba'ah bi'Yerushalayim",
+    "closingTranslation": "\"Next year in Jerusalem.\""
+  },
+  "contact": {
+    "label": "Get in Touch",
+    "title": "Contact Us",
+    "subtitle": "Questions about the content? Reach out \u2014 we'd love to hear from you.",
+    "successTitle": "Message Sent",
+    "successText": "Thank you for reaching out. We will respond soon.",
+    "returnHome": "Return Home",
+    "name": "Name",
+    "namePlaceholder": "Your full name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "message": "Message",
+    "messagePlaceholder": "Your question or message...",
+    "send": "Send Message",
+    "privacy": "We respect your privacy. Your information will not be shared."
+  },
+  "notFound": {
+    "title": "404",
+    "text": "Oops! Page not found",
+    "link": "Return to Home"
+  },
+  "footer": {
+    "quote": "\"On that day, the Eternal One will be One and His name will be One.\"",
+    "attribution": "\u2014 Zechariah 14:9",
+    "copyright": "\u00a9 {{year}} Beit HaMikdash \u2014 An Educational Resource"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "theStory": "Die Geschichte",
+    "contact": "Kontakt",
+    "readTheStory": "Geschichte lesen"
+  },
+  "hero": {
+    "tagline": "Dokumentation \u00b7 Geschichte \u00b7 Sakrale Architektur",
+    "title": "Salomons Tempel",
+    "hebrew": "\u05d1\u05b5\u05bc\u05d9\u05ea \u05d4\u05b7\u05de\u05b4\u05bc\u05e7\u05b0\u05d3\u05b8\u05bc\u05e9\u05c1",
+    "subtitle": "\u201eVom Gold des Ersten Tempels zum Licht des Dritten\u201c",
+    "description": "Begeben Sie sich in das Herz des antiken Jerusalem \u2014 in die heiligen Kammern, wo Himmel und Erde sich ber\u00fchrt haben sollen. Diese Dokumentation erkundet Salomons legend\u00e4ren Tempel: seine atemberaubende Architektur, seine heiligen Gegenst\u00e4nde, seine katastrophale Zerst\u00f6rung und die zeitlose j\u00fcdische Hoffnung auf seine Wiederherstellung.",
+    "watchFilm": "Film ansehen",
+    "readFullStory": "Die ganze Geschichte lesen"
+  },
+  "video": {
+    "label": "Jetzt ansehen",
+    "title": "Die Dokumentation",
+    "iframeTitle": "Salomons Tempel Dokumentation",
+    "caption": "Ca. 15 Minuten \u00b7 Untertitel verf\u00fcgbar"
+  },
+  "intro": {
+    "title": "Ein Bauwerk ohne Gleichen",
+    "text": "Um 950 v. Chr. errichtete K\u00f6nig Salomo das Beit HaMikdasch auf dem Berg Morija \u2014 demselben Felsen, auf dem Abraham gepr\u00fcft wurde und wo nach der \u00dcberlieferung die Sch\u00f6pfung selbst begann. Fast vier Jahrhunderte lang diente dieser Tempel als geistliches Zentrum des j\u00fcdischen Volkes, und seine Erinnerung hat drei Jahrtausende \u00fcberdauert."
+  },
+  "features": {
+    "label": "Entdecken",
+    "title": "Im Inneren des Tempels",
+    "card1": {
+      "category": "Architektur",
+      "title": "Die heiligen Vorh\u00f6fe",
+      "text": "Von den \u00e4usseren Vorh\u00f6fen bis zum innersten Heiligtum \u2014 eine Reise durch die gestuften heiligen R\u00e4ume des Ersten Tempels."
+    },
+    "card2": {
+      "category": "Heilige Gegenst\u00e4nde",
+      "title": "Die Menora & heilige Gef\u00e4sse",
+      "text": "Zehn goldene Menorot, die Schaubrote und der goldene R\u00e4ucheraltar \u2014 Gegenst\u00e4nde von g\u00f6ttlicher Bestimmung."
+    },
+    "card3": {
+      "category": "Allerheiligstes",
+      "title": "Die Bundeslade",
+      "text": "In der innersten Kammer, hinter einem Vorhang aus 72 F\u00e4den, ruhte die Aron HaBrit \u2014 die Quelle der g\u00f6ttlichen Gegenwart."
+    }
+  },
+  "quoteBanner": {
+    "quote": "Von der Bundeslade, sagen die Weisen, ging das geistliche Leben der Welt aus.",
+    "cta": "Die ganze Geschichte lesen"
+  },
+  "download": {
+    "label": "Ressourcen",
+    "title": "Das vollst\u00e4ndige Dokument herunterladen",
+    "text": "Laden Sie den vollst\u00e4ndigen Begleittext zur Dokumentation herunter \u2014 mit detaillierten Beschreibungen, historischen Zeitleisten und Quellenverweisen.",
+    "english": "Englisches PDF",
+    "german": "Deutsches PDF"
+  },
+  "blog": {
+    "backHome": "\u2190 Zur\u00fcck zur Startseite",
+    "label": "Hauptartikel",
+    "title": "Salomons Tempel: Architektur, heilige Gegenst\u00e4nde & die Verheissung des Dritten Tempels",
+    "byline": "Vom Beit-HaMikdasch-Redaktionsteam",
+    "date": "M\u00e4rz 2025",
+    "readTime": "12 Min. Lesezeit",
+    "intro": "Um 950 v. Chr. erbaute K\u00f6nig Salomo auf dem Berg Morija in Jerusalem \u2014 demselben Felsen, auf dem Abraham gepr\u00fcft wurde und wo die Sch\u00f6pfung begonnen haben soll \u2014 den Ersten Tempel. Sieben Jahre Bauzeit, Zedernholz aus dem Libanon und Steine, die im Verborgenen behauen wurden (damit kein Hammer auf dem Tempelberg erklang), schufen eines der heiligsten Bauwerke der antiken Welt.",
+    "sections": {
+      "courtyards": {
+        "title": "Die Vorh\u00f6fe",
+        "imageAlt": "\u00c4usserer Vorhof des Tempels",
+        "content": "Der Tempelkomplex begann mit einem grossen \u00e4usseren Vorhof, zu dem man durch m\u00e4chtige bronzeverkleidete Tore gelangte. Dahinter lag der innere Vorhof (Azara), errichtet aus drei Schichten glattem Stein und einer Schicht Zedernbalken \u2014 die Grenze zwischen dem Volk und den Priestern. Diese architektonische Schichtung war bewusst gew\u00e4hlt: Jede Schwelle f\u00fchrte den Betenden tiefer in die Heiligkeit, weiter weg von der profanen Welt."
+      },
+      "altar": {
+        "title": "Der Altar und das Eherne Meer",
+        "content": "Im Zentrum des inneren Vorhofs stand ein monumentaler Bronzealtar \u2014 etwa 10 m \u00d7 10 m \u00d7 5 m \u2014 auf dem Tag und Nacht ein ewiges Feuer brannte. In der N\u00e4he ruhte das Eherne Meer (Yam shel Nechoschet), ein Becken von 5 Metern Durchmesser mit \u00fcber 60.000 Litern Wasser, getragen von 12 bronzenen Ochsen, die in Dreiergruppen in die vier Himmelsrichtungen blickten. Zehn kunstvolle Bronzebecken auf R\u00e4derwagen dienten der rituellen Reinigung der Opfergaben, bevor sie zum Altar gebracht wurden."
+      },
+      "pillars": {
+        "title": "Die zwei S\u00e4ulen",
+        "content": "Zwei freistehende Bronzes\u00e4ulen, jeweils 12 Meter hoch, flankierten den Eingang zur Vorhalle des Tempels. Die rechte S\u00e4ule hiess Jachin (\u201eEr wird st\u00e4rken\u201c) und die linke Boas (\u201eIn ihm ist St\u00e4rke\u201c). Bemerkenswert ist, dass sie keinerlei tragende Funktion hatten \u2014 sie waren rein symbolisch und verk\u00fcndeten den g\u00f6ttlichen Bund mit der Dynastie Davids und den ewigen Bund mit Israel."
+      },
+      "sanctuary": {
+        "title": "Das Heiligtum (Heichal)",
+        "imageAlt": "Die Goldene Menora des Heiligtums",
+        "content": "Der Hauptsaal \u2014 21 m lang, 10 m breit und 16 m hoch \u2014 war vollst\u00e4ndig mit Zedernholz verkleidet und mit feinstem Gold \u00fcberzogen. Er beherbergte zehn goldene Menorot (Leuchter), obwohl nur die originale Menora des Mosche allabendlich angez\u00fcndet wurde. Zehn goldene Tische trugen die Schaubrote, doch nur der Originaltisch des Mosche trug die 12 Brote (Lechem HaPanim), die der \u00dcberlieferung nach auf wundersame Weise sieben Tage lang frisch blieben. Auf dem Goldenen R\u00e4ucheraltar wurde zweimal t\u00e4glich eine geheime Mischung aus elf Zutaten verbrannt, die nur der Familie Avtinas bekannt war.",
+        "list": [
+          "10 goldene Menorot \u2014 nur die originale Menora des Mosche wurde angez\u00fcndet",
+          "10 goldene Tische \u2014 nur der Tisch des Mosche trug die wundersamen 12 Brote",
+          "Der Goldene R\u00e4ucheraltar \u2014 eine geheime Mischung aus 11 Zutaten, zweimal t\u00e4glich verbrannt"
+        ]
+      },
+      "holies": {
+        "title": "Das Allerheiligste (Kodesch HaKodaschim)",
+        "content": "Ein perfekter W\u00fcrfel \u2014 10,5 m \u00d7 10,5 m \u00d7 10,5 m \u2014 ohne Fenster, dessen W\u00e4nde und Boden vollst\u00e4ndig mit Gold bedeckt waren. Zwei Cherubim (Keruvim) aus Olivenholz, jeweils f\u00fcnf Meter hoch, standen darin mit ausgebreiteten Fl\u00fcgeln, die sich \u00fcber die gesamte Breite des Raumes ber\u00fchrten. Sie waren vom Heiligtum durch den Parochet getrennt \u2014 einen Vorhang, gewebt aus 72 F\u00e4den, wobei jeder Faden selbst aus 24 Einzelf\u00e4den gedreht war, was ihn praktisch undurchdringlich machte. Nur der Hohepriester (Kohen Gadol) durfte diesen Raum betreten, und nur einmal im Jahr \u2014 an Jom Kippur, dem Vers\u00f6hnungstag."
+      },
+      "ark": {
+        "title": "Die Bundeslade",
+        "imageAlt": "Die Bundeslade",
+        "content": "Im Herzen des Allerheiligsten ruhte die Aron HaBrit \u2014 die Bundeslade \u2014 welche die beiden steinernen Gesetzestafeln enthielt, die Mosche am Sinai empfangen hatte. Auf der Lade ruhte die goldene Abdeckung (Kapporet), von der aus zwei goldene Keruvim mit kindlichen Gesichtern und adler\u00e4hnlichen Fl\u00fcgeln sich in einer Umarmung nach aussen erstreckten. Aus dem Raum zwischen diesen Fl\u00fcgeln, sagen die Weisen, \u201eging das geistliche Leben der Welt aus\u201c \u2014 der Ort, an dem die Stimme des G\u00f6ttlichen zu Mosche sprach.",
+        "quote": "Davon, sagen die Weisen, \u201eging das geistliche Leben der Welt aus.\u201c"
+      },
+      "destruction": {
+        "title": "Zerst\u00f6rung & verborgene Sch\u00e4tze",
+        "content": "Im Jahr 586 v. Chr. \u2014 dem Jahr 3.338 des hebr\u00e4ischen Kalenders \u2014 durchbrach Nebukadnezars babylonisches Heer die Mauern Jerusalems und zerst\u00f6rte den Tempel am 9. Aw (Tischa beAw), einem Datum, das f\u00fcr immer von nationaler Trauer gepr\u00e4gt sein sollte. Der \u00dcberlieferung nach hatte K\u00f6nig Joschija die Katastrophe vorausgesehen und im Voraus die Bundeslade, die originale Menora und den wundersamen Krug mit Manna verborgen \u2014 versteckt in einem unterirdischen Gang unter dem Tempelberg, wo sie auf die Zeit der endg\u00fcltigen Erl\u00f6sung warten."
+      },
+      "thirdTemple": {
+        "title": "Der Dritte Tempel",
+        "content": "Der grosse mittelalterliche Gelehrte Maimonides (Rambam) schreibt, dass der Maschiach den Tempel wieder aufbauen und die Zerstreuten Israels aus ihrem Exil sammeln wird. Der Midrasch lehrt etwas noch Mystischeres: dass der Dritte Tempel bereits im Himmel vollendet ist, aus g\u00f6ttlichem Licht geschaffen, und eines Tages auf die Erde herabsteigen wird. Der Prophet Secharja verk\u00fcndet die endg\u00fcltige Vision: \u201eAn jenem Tag wird der Ewige Einer sein und Sein Name wird Einer sein.\u201c",
+        "quote": "\u201eAn jenem Tag wird der Ewige Einer sein und Sein Name wird Einer sein.\u201c \u2014 Secharja 14:9"
+      }
+    },
+    "closing": "Der Tempel wurde zerst\u00f6rt, doch seine Erinnerung wurde nie ausgel\u00f6scht. Jedes Jahr wenden sich Juden auf der ganzen Welt nach Jerusalem und fl\u00fcstern dieselbe uralte Hoffnung:",
+    "closingHebrew": "l'schana ha-ba'a bi'Jeruschalajim",
+    "closingTranslation": "\u201eN\u00e4chstes Jahr in Jerusalem.\u201c"
+  },
+  "contact": {
+    "label": "Kontakt aufnehmen",
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Fragen zum Inhalt? Schreiben Sie uns \u2014 wir freuen uns, von Ihnen zu h\u00f6ren.",
+    "successTitle": "Nachricht gesendet",
+    "successText": "Vielen Dank f\u00fcr Ihre Nachricht. Wir werden uns bald bei Ihnen melden.",
+    "returnHome": "Zur Startseite",
+    "name": "Name",
+    "namePlaceholder": "Ihr vollst\u00e4ndiger Name",
+    "email": "E-Mail",
+    "emailPlaceholder": "ihre@email.com",
+    "message": "Nachricht",
+    "messagePlaceholder": "Ihre Frage oder Nachricht...",
+    "send": "Nachricht senden",
+    "privacy": "Wir respektieren Ihre Privatsph\u00e4re. Ihre Daten werden nicht weitergegeben."
+  },
+  "notFound": {
+    "title": "404",
+    "text": "Seite nicht gefunden",
+    "link": "Zur Startseite"
+  },
+  "footer": {
+    "quote": "\u201eAn jenem Tag wird der Ewige Einer sein und Sein Name wird Einer sein.\u201c",
+    "attribution": "\u2014 Secharja 14:9",
+    "copyright": "\u00a9 {{year}} Beit HaMikdasch \u2014 Eine Bildungsressource"
+  }
+}
