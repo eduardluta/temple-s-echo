@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
   base: "/temple-s-echo/",
   server: {
     host: "::",
-    port: 8080,
+    port: 5174,
     hmr: {
       overlay: false,
     },

@@ -22,25 +22,25 @@
   },
   "intro": {
     "title": "A Structure Unlike Any Other",
-    "text": "Around 950 BCE, King Solomon erected the Beit HaMikdash on Mount Moriah \u2014 the same rock where Abraham was tested and, according to tradition, where creation itself began. For nearly four centuries, this Temple served as the spiritual center of the Jewish people, and its memory has endured for three millennia."
+    "text": "Around 950 BCE, King Solomon erected the Beit HaMikdash \u2013 Solomon\u2019s Temple \u2013 on Mount Moriah \u2014 the same rock where Abraham was tested and, according to tradition, where creation itself began. For nearly four centuries, this Temple served as the spiritual center of the Jewish people, and its memory has endured for three millennia."
   },
   "features": {
     "label": "Explore",
     "title": "Inside the Temple",
     "card1": {
-      "category": "Architecture",
-      "title": "The Sacred Courtyards",
-      "text": "From the outer courts to the innermost sanctuary \u2014 a journey through the tiered holy spaces of the First Temple."
+      "category": "The Inner Court",
+      "title": "The Temple Courtyard (the Azara)",
+      "text": "This inner court is called Azara in rabbinic literature. It formed the center of the entire Temple complex, the area where the Kohanim \u2013 priests performed the daily service and brought the offerings. The name Azara is derived in the Talmud (Erchin 11a) from the Hebrew word Ezra \u2013 help, because whoever entered this court found spiritual help and purification."
     },
     "card2": {
-      "category": "Sacred Objects",
-      "title": "The Menorah & Holy Vessels",
-      "text": "Ten golden menorot, the showbread, and the golden incense altar \u2014 objects charged with divine purpose."
+      "category": "The Sanctuary",
+      "title": "The Sanctuary (the Heichal)",
+      "text": "In the Heichal stood the holy vessels of daily service: the golden lampstands \u2013 Menorot, the tables of showbread \u2013 Shulchanot Lechem haPanim \u2013, and the incense altar of pure gold \u2013 Mizbach haKetoret. Here rose the fragrance of the Ketoret \u2013 the holy incense \u2013 as commanded in Shemot Chapter 30, Verses 7\u20138."
     },
     "card3": {
-      "category": "Holy of Holies",
-      "title": "The Ark of the Covenant",
-      "text": "In the innermost chamber, behind a curtain of 72 threads, rested the Aron HaBrit \u2014 the source of divine presence."
+      "category": "The Holy of Holies",
+      "title": "The Holy of Holies (Kodesh haKodashim)",
+      "text": "The Holy of Holies \u2013 Kodesh haKodashim: A cube of gold: 20 \u00d7 20 \u00d7 20 cubits \u2013 perfectly symmetrical. Two golden Cherubim, five meters tall, their wings spanning the entire width. No window, no earthly light \u2013 only the Or haShechina. Here rested the Ark of the Covenant. Here heaven and earth touched. The place from which the world was founded."
     }
   },
   "quoteBanner": {
@@ -131,9 +131,36 @@
     "text": "Oops! Page not found",
     "link": "Return to Home"
   },
+  "scenes": {
+    "label": "The Journey",
+    "title": "All 21 Scenes",
+    "sceneLabel": "Scene"
+  },
+  "impressum": {
+    "title": "Legal Notice",
+    "company": "Becker Innovation",
+    "address": "Musterstrasse 1",
+    "city": "8000 Z\u00fcrich",
+    "country": "Switzerland",
+    "phone": "+41 00 000 00 00",
+    "email": "info@beckerinnovation.ch",
+    "website": "www.beckerinnovation.ch",
+    "liability": {
+      "title": "Liability Disclaimer",
+      "text": "The author assumes no liability for the accuracy, correctness, timeliness, reliability, or completeness of the information provided. Claims for damages of a material or immaterial nature arising from access to or use or non-use of the published information are excluded."
+    },
+    "copyright": {
+      "title": "Copyright",
+      "text": "The content and works published on this website are subject to copyright law. Any use not permitted under copyright law requires the prior written consent of the author."
+    },
+    "email_comm": {
+      "title": "Email Communication",
+      "text": "Please note that emails are transmitted unencrypted. Do not send confidential or sensitive information via email, as it may potentially be intercepted by third parties."
+    }
+  },
   "footer": {
-    "quote": "\"On that day, the Eternal One will be One and His name will be One.\"",
-    "attribution": "\u2014 Zechariah 14:9",
-    "copyright": "\u00a9 {{year}} Beit HaMikdash \u2014 An Educational Resource"
+    "copyright": "\u00a9 {{year}} Becker Innovation",
+    "impressum": "Impressum",
+    "privacy": "Privacy Policy"
   }
 }

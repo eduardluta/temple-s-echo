@@ -22,25 +22,25 @@
   },
   "intro": {
     "title": "Ein Bauwerk ohne Gleichen",
-    "text": "Um 950 v. Chr. errichtete K\u00f6nig Salomo das Beit HaMikdasch auf dem Berg Morija \u2014 demselben Felsen, auf dem Abraham gepr\u00fcft wurde und wo nach der \u00dcberlieferung die Sch\u00f6pfung selbst begann. Fast vier Jahrhunderte lang diente dieser Tempel als geistliches Zentrum des j\u00fcdischen Volkes, und seine Erinnerung hat drei Jahrtausende \u00fcberdauert."
+    "text": "Um 950 v. Chr. errichtete K\u00f6nig Salomo das Beit HaMikdasch \u2013 den Salomon Tempel \u2013 auf dem Berg Morija \u2014 demselben Felsen, auf dem Abraham gepr\u00fcft wurde und wo nach der \u00dcberlieferung die Sch\u00f6pfung selbst begann. Fast vier Jahrhunderte lang diente dieser Tempel als geistliches Zentrum des j\u00fcdischen Volkes, und seine Erinnerung hat drei Jahrtausende \u00fcberdauert."
   },
   "features": {
     "label": "Entdecken",
     "title": "Im Inneren des Tempels",
     "card1": {
-      "category": "Architektur",
-      "title": "Die heiligen Vorh\u00f6fe",
-      "text": "Von den \u00e4usseren Vorh\u00f6fen bis zum innersten Heiligtum \u2014 eine Reise durch die gestuften heiligen R\u00e4ume des Ersten Tempels."
+      "category": "Der Innere Hof",
+      "title": "Der Tempel Vorhof (die Azara)",
+      "text": "Dieser innere Hof wird in der rabbinischen Literatur Azara genannt. Er bildete das Zentrum des gesamten Tempelkomplexes, den Bereich, in dem die Kohanim \u2013 Priester den t\u00e4glichen Dienst verrichteten und die Opfer darbrachten. Der Name Azara wird im Talmud (Erchin 11a) vom hebr\u00e4ischen Wort Ezra \u2013 Hilfe abgeleitet, weil derjenige, der in diesen Hof trat, geistige Hilfe und L\u00e4uterung fand."
     },
     "card2": {
-      "category": "Heilige Gegenst\u00e4nde",
-      "title": "Die Menora & heilige Gef\u00e4sse",
-      "text": "Zehn goldene Menorot, die Schaubrote und der goldene R\u00e4ucheraltar \u2014 Gegenst\u00e4nde von g\u00f6ttlicher Bestimmung."
+      "category": "Das Heiligtum",
+      "title": "Das Heiligtum (der Heichal)",
+      "text": "Im Heichal standen die heiligen Ger\u00e4te des t\u00e4glichen Dienstes; die goldenen Leuchter \u2013 Menorot, die Tische der Schaubrote \u2013 Schulchanot Lechem haPanim \u2013, und der R\u00e4ucheraltar aus reinem Gold \u2013 Mizbach haKetoret \u2013. Hier stieg der Duft des Ketoret \u2013 des heiligen R\u00e4ucherwerks \u2013 empor, wie in Schemot Kapitel 30 Vers 7\u20138 geboten."
     },
     "card3": {
-      "category": "Allerheiligstes",
-      "title": "Die Bundeslade",
-      "text": "In der innersten Kammer, hinter einem Vorhang aus 72 F\u00e4den, ruhte die Aron HaBrit \u2014 die Quelle der g\u00f6ttlichen Gegenwart."
+      "category": "Das Allerheiligste",
+      "title": "Das Allerheiligste (das Kodesh haKodashim)",
+      "text": "Das Allerheiligste \u2013 Kodesh haKodaschim: Ein W\u00fcrfel aus Gold: 20 \u00d7 20 \u00d7 20 Ellen \u2013 vollkommen symmetrisch. Zwei goldene Cherubim, f\u00fcnf Meter hoch, ihre Fl\u00fcgel die ganze Breite umspannend. Kein Fenster, kein irdisches Licht \u2013 nur das Or haSchechina. Hier ruhte die Bundeslade. Hier ber\u00fchrten sich Himmel und Erde. Der Ort, von dem aus die Welt gegr\u00fcndet wurde."
     }
   },
   "quoteBanner": {
@@ -131,9 +131,36 @@
     "text": "Seite nicht gefunden",
     "link": "Zur Startseite"
   },
+  "scenes": {
+    "label": "Die Reise",
+    "title": "Alle 21 Szenen",
+    "sceneLabel": "Szene"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "company": "Becker Innovation",
+    "address": "Musterstrasse 1",
+    "city": "8000 Z\u00fcrich",
+    "country": "Schweiz",
+    "phone": "+41 00 000 00 00",
+    "email": "info@beckerinnovation.ch",
+    "website": "www.beckerinnovation.ch",
+    "liability": {
+      "title": "Haftungsausschluss",
+      "text": "Der Autor \u00fcbernimmt keinerlei Gew\u00e4hr hinsichtlich der inhaltlichen Richtigkeit, Genauigkeit, Aktualit\u00e4t, Zuverl\u00e4ssigkeit und Vollst\u00e4ndigkeit der Informationen. Haftungsanspr\u00fcche gegen den Autor wegen Sch\u00e4den materieller oder immaterieller Art, welche aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der ver\u00f6ffentlichten Informationen entstanden sind, werden ausgeschlossen."
+    },
+    "copyright": {
+      "title": "Urheberrecht",
+      "text": "Die auf dieser Webseite ver\u00f6ffentlichten Inhalte und Werke unterliegen dem Urheberrecht. Jede vom Urheberrecht nicht zugelassene Verwertung bedarf der vorherigen schriftlichen Zustimmung des Autors."
+    },
+    "email_comm": {
+      "title": "E-Mail-Kommunikation",
+      "text": "Bitte beachten Sie, dass E-Mails unverschl\u00fcsselt \u00fcbertragen werden. Senden Sie daher keine vertraulichen oder sensiblen Informationen per E-Mail, da diese m\u00f6glicherweise von Dritten abgefangen werden k\u00f6nnen."
+    }
+  },
   "footer": {
-    "quote": "\u201eAn jenem Tag wird der Ewige Einer sein und Sein Name wird Einer sein.\u201c",
-    "attribution": "\u2014 Secharja 14:9",
-    "copyright": "\u00a9 {{year}} Beit HaMikdasch \u2014 Eine Bildungsressource"
+    "copyright": "\u00a9 {{year}} Becker Innovation",
+    "impressum": "Impressum",
+    "privacy": "Datenschutzerkl\u00e4rung"
   }
 }

@@ -3,9 +3,10 @@ import { useTranslation } from "react-i18next";
 import { Download } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import templeHero from "@/assets/temple-hero.jpg";
-import menorah from "@/assets/menorah.jpg";
-import ark from "@/assets/ark.jpg";
+const heroImg = "/images/hero.png";
+const azaraImg = "/images/azara.png";
+const heichalImg = "/images/heichal.png";
+const kodeshImg = "/images/kodesh.png";
 
 const Index = () => {
   const { t } = useTranslation();
@@ -19,7 +20,7 @@ const Index = () => {
         {/* Background image */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${templeHero})` }}
+          style={{ backgroundImage: `url(${heroImg})` }}
         />
         {/* Overlays */}
         <div className="absolute inset-0 bg-temple-midnight/70" />
@@ -95,7 +96,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* ── FEATURE CARDS ── */}
+      {/* ── INSIDE THE TEMPLE — 3 AREAS ── */}
       <section className="py-24 bg-background">
         <div className="container px-4">
           <div className="text-center mb-14">
@@ -108,7 +109,7 @@ const Index = () => {
             {/* Card 1 */}
             <div className="group rounded overflow-hidden border border-border hover:border-temple-gold/50 transition-colors shadow-sm bg-card">
               <div className="aspect-video overflow-hidden">
-                <img src={templeHero} alt="Solomon's Temple exterior" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <img src={azaraImg} alt={t("features.card1.title")} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
               </div>
               <div className="p-6">
                 <p className="text-temple-gold font-ui text-xs uppercase tracking-widest mb-2">{t("features.card1.category")}</p>
@@ -120,7 +121,7 @@ const Index = () => {
             {/* Card 2 */}
             <div className="group rounded overflow-hidden border border-border hover:border-temple-gold/50 transition-colors shadow-sm bg-card">
               <div className="aspect-video overflow-hidden">
-                <img src={menorah} alt="The Golden Menorah" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <img src={heichalImg} alt={t("features.card2.title")} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
               </div>
               <div className="p-6">
                 <p className="text-temple-gold font-ui text-xs uppercase tracking-widest mb-2">{t("features.card2.category")}</p>
@@ -132,7 +133,7 @@ const Index = () => {
             {/* Card 3 */}
             <div className="group rounded overflow-hidden border border-border hover:border-temple-gold/50 transition-colors shadow-sm bg-card">
               <div className="aspect-video overflow-hidden">
-                <img src={ark} alt="Ark of the Covenant" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <img src={kodeshImg} alt={t("features.card3.title")} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
               </div>
               <div className="p-6">
                 <p className="text-temple-gold font-ui text-xs uppercase tracking-widest mb-2">{t("features.card3.category")}</p>
@@ -140,6 +141,43 @@ const Index = () => {
                 <p className="font-body text-muted-foreground text-sm leading-relaxed">{t("features.card3.text")}</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── 21 SCENES GALLERY ── */}
+      <section className="py-24 bg-temple-midnight">
+        <div className="container px-4">
+          <div className="text-center mb-14">
+            <p className="font-ui text-temple-gold uppercase tracking-[0.3em] text-xs mb-3">{t("scenes.label")}</p>
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-temple-on-dark">{t("scenes.title")}</h2>
+            <div className="gold-divider w-16 mx-auto mt-4" />
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {[
+              { src: "/images/scenes/1a.-szene.png", label: "1a" },
+              { src: "/images/scenes/1b.-szene.png", label: "1b" },
+              ...Array.from({ length: 20 }, (_, i) => ({
+                src: `/images/scenes/szene-${i + 2}.png`,
+                label: `${i + 2}`,
+              })),
+            ].map((scene) => (
+              <div
+                key={scene.label}
+                className="group relative aspect-video overflow-hidden rounded border border-temple-gold/20 hover:border-temple-gold/60 transition-colors cursor-pointer"
+              >
+                <img
+                  src={scene.src}
+                  alt={`${t("scenes.sceneLabel")} ${scene.label}`}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-temple-midnight/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+                <span className="absolute bottom-2 left-3 text-temple-gold font-ui text-xs uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                  {t("scenes.sceneLabel")} {scene.label}
+                </span>
+              </div>
+            ))}
           </div>
         </div>
       </section>

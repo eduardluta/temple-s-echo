@@ -23,10 +23,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between h-16">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 group">
-          <span className="text-temple-gold text-xl">✦</span>
-          <span className="font-display text-lg font-semibold text-temple-on-dark tracking-wide group-hover:text-temple-gold transition-colors">
-            Beit HaMikdash
-          </span>
+          <img src="/images/becker-logo-gold.svg" alt="Becker Innovation" className="h-8 w-auto opacity-90 group-hover:opacity-100 transition-opacity" />
         </Link>
 
         {/* Desktop links */}
