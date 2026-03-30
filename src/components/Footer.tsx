@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Single row: Logo + Copyright + Legal links */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
           <Link to="/" className="flex items-center gap-2">
-            <img src={`${import.meta.env.BASE_URL}images/becker-logo-gold.svg`} alt="Becker Innovation" className="h-9 w-auto opacity-70 hover:opacity-100 transition-opacity" />
+            <img src={`${import.meta.env.BASE_URL}images/becker-logo-gold.svg`} alt="Becker Innovation" className="h-10 w-auto opacity-70 hover:opacity-100 transition-opacity" />
           </Link>
           <p className="text-xs font-ui text-temple-on-dark/40">
             {t("footer.copyright", { year: new Date().getFullYear() })}
