@@ -36,10 +36,22 @@ const Contact = () => {
             </div>
           ) : (
             <form
-              action="https://api.web3forms.com/submit"
-              method="POST"
-              onSubmit={() => setSubmitted(true)}
               className="space-y-6"
+              onSubmit={async (e) => {
+                e.preventDefault();
+                const form = e.target as HTMLFormElement;
+                const formData = new FormData(form);
+                try {
+                  const res = await fetch("https://api.web3forms.com/submit", {
+                    method: "POST",
+                    body: formData,
+                  });
+                  if (res.ok) setSubmitted(true);
+                  else alert("Something went wrong. Please try again.");
+                } catch {
+                  alert("Network error. Please try again.");
+                }
+              }}
             >
               <input type="hidden" name="access_key" value="7f7b1704-6022-45df-b3ed-9e0d5036106d" />
               <input type="hidden" name="subject" value="New contact from Beit HaMikdash website" />
