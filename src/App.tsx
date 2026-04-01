@@ -19,7 +19,8 @@ const App = () => (
       <BrowserRouter basename="/temple-s-echo">
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/geschichte" element={<Blog />} />
+          <Route path="/story" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/impressum" element={<Impressum />} />
           <Route path="*" element={<NotFound />} />

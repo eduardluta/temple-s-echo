@@ -14,7 +14,7 @@ const Navbar = () => {
 
   const links = [
     { to: "/", label: t("nav.home") },
-    { to: "/blog", label: t("nav.theStory") },
+    { to: "/geschichte", label: t("nav.theStory") },
     { to: "/contact", label: t("nav.contact") },
   ];
 
@@ -53,7 +53,7 @@ const Navbar = () => {
           </button>
 
           <Link
-            to="/blog"
+            to="/geschichte"
             className="ml-4 px-5 py-2 text-sm font-ui uppercase tracking-wider bg-gradient-to-r from-temple-gold to-temple-gold-light text-temple-midnight font-semibold rounded transition-opacity hover:opacity-90 shadow-gold"
           >
             {t("nav.readTheStory")}
