@@ -46,7 +46,7 @@ const Index = () => {
             <a href="#video" className="inline-block px-8 py-3.5 bg-gradient-to-r from-temple-gold to-temple-gold-light text-temple-midnight font-ui font-semibold uppercase tracking-widest text-sm rounded shadow-gold hover:opacity-90 transition-opacity">
               {t("hero.watchFilm")}
             </a>
-            <Link to="/geschichte" className="inline-block px-8 py-3.5 border border-temple-gold/50 text-temple-on-dark font-ui font-medium uppercase tracking-widest text-sm rounded hover:border-temple-gold hover:text-temple-gold transition-colors">
+            <Link to="/story" className="inline-block px-8 py-3.5 border border-temple-gold/50 text-temple-on-dark font-ui font-medium uppercase tracking-widest text-sm rounded hover:border-temple-gold hover:text-temple-gold transition-colors">
               {t("hero.readFullStory")}
             </Link>
           </div>
@@ -224,7 +224,7 @@ const Index = () => {
             {t("quoteBanner.quote")}
           </blockquote>
           <div className="gold-divider w-16 mx-auto mb-6" />
-          <Link to="/geschichte" className="inline-block px-8 py-3.5 bg-gradient-to-r from-temple-gold to-temple-gold-light text-temple-midnight font-ui font-semibold uppercase tracking-widest text-sm rounded shadow-gold hover:opacity-90 transition-opacity">
+          <Link to="/story" className="inline-block px-8 py-3.5 bg-gradient-to-r from-temple-gold to-temple-gold-light text-temple-midnight font-ui font-semibold uppercase tracking-widest text-sm rounded shadow-gold hover:opacity-90 transition-opacity">
             {t("quoteBanner.cta")}
           </Link>
         </div>
