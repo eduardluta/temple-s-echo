@@ -36,10 +36,18 @@ const Contact = () => {
             </div>
           ) : (
             <form
-              action="https://formspree.io/f/xblywkpn"
-              method="POST"
-              onSubmit={() => setSubmitted(true)}
               className="space-y-6"
+              onSubmit={(e) => {
+                e.preventDefault();
+                const form = e.target as HTMLFormElement;
+                const name = (form.elements.namedItem("name") as HTMLInputElement).value;
+                const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+                const message = (form.elements.namedItem("message") as HTMLTextAreaElement).value;
+                const subject = encodeURIComponent(`Contact from ${name}`);
+                const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
+                window.location.href = `mailto:artan@mikgroup.ch?subject=${subject}&body=${body}`;
+                setSubmitted(true);
+              }}
             >
               <div>
                 <label className="block font-ui text-xs uppercase tracking-widest text-muted-foreground mb-2">
