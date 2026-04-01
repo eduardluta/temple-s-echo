@@ -35,7 +35,7 @@ const Blog = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-temple-midnight">
+    <div className="min-h-screen bg-background">
       <Navbar />
 
       {/* ── Header ── */}
@@ -70,14 +70,14 @@ const Blog = () => {
             <div key={key}>
               <article className="mt-16" id={key}>
                 {/* Scene header */}
-                <div className="flex flex-wrap items-baseline gap-4 mb-5 pb-3 border-b border-temple-gold/15">
-                  <span className="font-ui text-[10px] tracking-[0.3em] text-temple-gold/50 uppercase shrink-0">
+                <div className="flex flex-wrap items-baseline gap-4 mb-5 pb-3 border-b border-border">
+                  <span className="font-ui text-[10px] tracking-[0.3em] text-temple-gold uppercase shrink-0">
                     {t(`${s}.num`)}
                   </span>
-                  <h2 className="font-display text-lg md:text-xl font-semibold text-temple-gold/90 leading-tight">
+                  <h2 className="font-display text-lg md:text-xl font-semibold text-temple-midnight leading-tight">
                     {t(`${s}.title`)}
                   </h2>
-                  <span className="font-display italic text-temple-gold/70 text-sm md:text-base ml-auto whitespace-nowrap">
+                  <span className="font-display italic text-temple-gold text-sm md:text-base ml-auto whitespace-nowrap">
                     {t(`${s}.subtitle`)}
                   </span>
                 </div>
@@ -103,7 +103,7 @@ const Blog = () => {
                 </div>
 
                 {/* Body */}
-                <div className="font-body text-temple-on-dark/85 leading-relaxed space-y-4">
+                <div className="font-body text-foreground/80 leading-relaxed space-y-4">
                   {Array.isArray(body) && body.map((p, j) => (
                     <p key={j}>{p}</p>
                   ))}
@@ -111,7 +111,7 @@ const Blog = () => {
 
                 {/* Measurements */}
                 {Array.isArray(measurements) && measurements.length > 0 && (
-                  <div className="my-5 py-3 px-5 bg-temple-gold/[0.04] border-l-2 border-temple-gold/40 text-sm text-temple-gold/80 leading-loose">
+                  <div className="my-5 py-3 px-5 bg-temple-gold/[0.06] border-l-2 border-temple-gold text-sm text-temple-midnight/70 leading-loose">
                     {measurements.map((m: string, j: number) => (
                       <div key={j}>{m}</div>
                     ))}
@@ -120,10 +120,10 @@ const Blog = () => {
 
                 {/* Pull quote */}
                 {quote && (
-                  <div className="my-5 py-5 px-6 border-t border-b border-temple-gold/15 font-display italic text-temple-gold/80 leading-relaxed">
+                  <div className="my-5 py-5 px-6 border-t border-b border-border font-display italic text-temple-midnight/70 leading-relaxed">
                     {quote}
                     {quoteCite && (
-                      <cite className="block mt-2 text-[11px] font-ui not-italic tracking-[0.12em] text-temple-gold/40 uppercase">
+                      <cite className="block mt-2 text-[11px] font-ui not-italic tracking-[0.12em] text-temple-gold uppercase">
                         {quoteCite}
                       </cite>
                     )}
@@ -133,10 +133,10 @@ const Blog = () => {
 
               {/* Divider */}
               {i < sceneKeys.length - 1 && (
-                <div className="flex items-center gap-4 mt-16 opacity-30">
-                  <div className="flex-1 h-px bg-gradient-to-r from-transparent via-temple-gold/50 to-transparent" />
+                <div className="flex items-center gap-4 mt-16 opacity-40">
+                  <div className="flex-1 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
                   <span className="text-temple-gold text-sm">&#10022;</span>
-                  <div className="flex-1 h-px bg-gradient-to-r from-transparent via-temple-gold/50 to-transparent" />
+                  <div className="flex-1 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
                 </div>
               )}
             </div>
@@ -144,9 +144,9 @@ const Blog = () => {
         })}
 
         {/* Closing */}
-        <div className="mt-20 p-8 rounded border border-temple-gold/20 text-center bg-temple-gold/[0.03]">
+        <div className="mt-20 p-8 rounded border border-border text-center bg-temple-midnight">
           <div className="text-temple-gold text-2xl mb-4">&#10022;</div>
-          <p className="font-display text-temple-on-dark/80 italic text-lg leading-relaxed mb-4">
+          <p className="font-display text-temple-on-dark italic text-lg leading-relaxed mb-4">
             {t("blog.closing")} <em className="text-temple-gold">{t("blog.closingHebrew")}</em> — {t("blog.closingTranslation")}
           </p>
           <div className="gold-divider w-16 mx-auto mt-6" />
