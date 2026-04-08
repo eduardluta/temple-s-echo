@@ -39,8 +39,11 @@ const Index = () => {
           <p className="font-display text-lg md:text-xl text-temple-on-dark/80 italic mb-10 max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.2s" }}>
             {t("hero.subtitle")}
           </p>
-          <p className="font-body text-temple-on-dark/70 max-w-xl mx-auto mb-12 leading-relaxed animate-fade-up" style={{ animationDelay: "0.35s" }}>
+          <p className="font-body text-temple-on-dark/70 max-w-xl mx-auto mb-6 leading-relaxed animate-fade-up" style={{ animationDelay: "0.35s" }}>
             {t("hero.description")}
+          </p>
+          <p className="font-body text-temple-on-dark/50 text-sm max-w-lg mx-auto mb-12 leading-relaxed italic animate-fade-up" style={{ animationDelay: "0.45s" }}>
+            {t("hero.credit")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.5s" }}>
             <a href="#video" className="inline-block px-8 py-3.5 bg-gradient-to-r from-temple-gold to-temple-gold-light text-temple-midnight font-ui font-semibold uppercase tracking-widest text-sm rounded shadow-gold hover:opacity-90 transition-opacity">
