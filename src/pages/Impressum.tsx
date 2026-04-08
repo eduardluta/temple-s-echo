@@ -57,6 +57,15 @@ const Impressum = () => {
               {t("impressum.email_comm.text")}
             </p>
           </div>
+
+          <div className="gold-divider w-16 mb-10" />
+
+          {/* Footer info */}
+          <div className="font-body text-foreground/70 leading-relaxed text-sm">
+            <p>Copyright &copy; {new Date().getFullYear()} {t("impressum.company")}</p>
+            <p>{t("impressum.address")}, {t("impressum.city")}, {t("impressum.country")}</p>
+            <p>Telefon <a href={`tel:${t("impressum.phone").replace(/\s/g, "")}`} className="underline hover:text-temple-gold transition-colors">{t("impressum.phone")}</a>, <a href={`mailto:${t("impressum.email")}`} className="underline hover:text-temple-gold transition-colors">{t("impressum.email")}</a></p>
+          </div>
         </div>
       </section>
 
