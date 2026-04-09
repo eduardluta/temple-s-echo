@@ -30,7 +30,7 @@ const sceneImages: Record<string, string | string[] | undefined> = {
   s18: `${base}images/scenes/szene-18.jpg`,
   s19: `${base}images/scenes/szene-19.jpg`,
   s20: `${base}images/scenes/szene-20.jpg`,
-  s21: undefined,
+  s21: `${base}images/scenes/bundeslade.jpg`,
   s22: `${base}images/scenes/szene-21.jpg`,
 };
 
