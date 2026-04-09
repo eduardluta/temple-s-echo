@@ -117,24 +117,31 @@ const Story = () => {
         })}
 
         {/* Sources */}
-        <div className="mt-20 pt-10 border-t border-border">
-          <h2 className="font-display text-2xl font-semibold text-temple-midnight mb-3">{content.sources.title}</h2>
-          <p className="font-body text-foreground/70 italic mb-8">{content.sources.intro}</p>
-          <div className="grid md:grid-cols-2 gap-8">
+        <div className="mt-24 pt-12 border-t border-border">
+          <div className="text-center mb-10">
+            <span className="text-temple-gold text-xl">&#10022;</span>
+            <h2 className="font-display text-3xl font-semibold text-temple-midnight mt-2 mb-3">{content.sources.title}</h2>
+            <p className="font-body text-foreground/70 italic max-w-2xl mx-auto">{content.sources.intro}</p>
+            <div className="gold-divider w-16 mx-auto mt-6" />
+          </div>
+          <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6 [&>div]:break-inside-avoid">
             {content.sources.groups.map((group) => (
-              <div key={group.heading}>
-                <h3 className="font-ui text-xs font-semibold tracking-[0.16em] text-temple-gold uppercase mb-3">
+              <div
+                key={group.heading}
+                className="rounded border border-temple-gold/20 bg-temple-gold/[0.03] px-5 py-4"
+              >
+                <h3 className="font-ui text-[11px] font-semibold tracking-[0.18em] text-temple-gold uppercase mb-3 pb-2 border-b border-temple-gold/20">
                   {group.heading}
                 </h3>
-                <ul className="font-body text-foreground/75 text-sm space-y-1">
+                <ul className="font-body text-foreground/80 text-sm space-y-1.5">
                   {group.items.map((item) => (
-                    <li key={item}>{item}</li>
+                    <li key={item} className="leading-snug">{item}</li>
                   ))}
                 </ul>
               </div>
             ))}
           </div>
-          <p className="font-body text-foreground/60 italic text-sm mt-8">{content.sources.total}</p>
+          <p className="font-body text-foreground/60 italic text-sm text-center mt-10">{content.sources.total}</p>
         </div>
 
         {/* Closing */}
