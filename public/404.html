@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <script>
     // Redirect all 404s to index.html for client-side routing (SPA)
-    var pathSegmentsToKeep = 1; // keep /temple-s-echo/
+    var pathSegmentsToKeep = 0; // custom domain at root
     var l = window.location;
     l.replace(
       l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
