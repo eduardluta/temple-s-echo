@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <footer className="bg-temple-midnight border-t border-temple-gold/20 py-10">
@@ -10,7 +10,11 @@ const Footer = () => {
         {/* Single row: Logo + Copyright + Legal links */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
           <a
-            href="https://beckerinnovation.ch/projekte/#solomon"
+            href={
+              i18n.language === "en"
+                ? "https://beckerinnovation.ch/en/projects/#solomon"
+                : "https://beckerinnovation.ch/projekte/#solomon"
+            }
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2"

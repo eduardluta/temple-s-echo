@@ -23,7 +23,11 @@ const Navbar = () => {
       <div className="container flex items-center justify-between h-16">
         {/* Logo */}
         <a
-          href="https://beckerinnovation.ch/projekte/#solomon"
+          href={
+            i18n.language === "en"
+              ? "https://beckerinnovation.ch/en/projects/#solomon"
+              : "https://beckerinnovation.ch/projekte/#solomon"
+          }
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 group"
