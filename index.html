@@ -26,6 +26,7 @@
     <meta property="og:site_name" content="Solomon's Temple" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:locale:alternate" content="de_DE" />
+    <meta property="og:locale:alternate" content="he_IL" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Solomon's Temple — Documentary" />
@@ -37,13 +38,16 @@
   </head>
 
   <body>
-    <!-- Sync <html lang> with i18next-detected language (en | de) -->
+    <!-- Sync <html lang> + dir with i18next-detected language (en | de | he) -->
     <script>
       (function () {
         try {
           var stored = localStorage.getItem('i18nextLng');
-          var lang = stored || (navigator.language || 'en').slice(0, 2);
-          document.documentElement.lang = lang === 'de' ? 'de' : 'en';
+          var raw = stored || (navigator.language || 'en');
+          var lang = (raw || 'en').slice(0, 2).toLowerCase();
+          if (lang !== 'de' && lang !== 'he') lang = 'en';
+          document.documentElement.lang = lang;
+          document.documentElement.dir = lang === 'he' ? 'rtl' : 'ltr';
         } catch (e) {}
       })();
     </script>

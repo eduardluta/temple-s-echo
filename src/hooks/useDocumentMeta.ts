@@ -23,8 +23,12 @@ export const useDocumentMeta = () => {
     setMeta('meta[name="twitter:title"]', title);
     setMeta('meta[name="twitter:description"]', ogDescription);
 
-    const isDe = i18n.language.startsWith("de");
-    setMeta('meta[property="og:locale"]', isDe ? "de_DE" : "en_US");
-    setMeta('meta[property="og:locale:alternate"]', isDe ? "en_US" : "de_DE");
+    const lang = (i18n.language || "en").slice(0, 2);
+    const localeMap: Record<string, string> = {
+      de: "de_DE",
+      he: "he_IL",
+      en: "en_US",
+    };
+    setMeta('meta[property="og:locale"]', localeMap[lang] || "en_US");
   }, [t, i18n.language]);
 };

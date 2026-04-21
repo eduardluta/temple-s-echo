@@ -5,7 +5,12 @@ import { privacyContent } from "@/data/privacy-content";
 
 const Privacy = () => {
   const { i18n } = useTranslation();
-  const c = i18n.language === "de" ? privacyContent.de : privacyContent.en;
+  const c =
+    i18n.language === "de"
+      ? privacyContent.de
+      : i18n.language === "he"
+      ? privacyContent.he
+      : privacyContent.en;
 
   return (
     <div className="min-h-screen bg-background">
@@ -43,7 +48,7 @@ const Privacy = () => {
             <p className="font-body text-foreground/80 leading-relaxed mb-4">{c.s2_privacy_text3}</p>
             <h3 className="font-display text-lg font-semibold text-temple-midnight mt-6 mb-2">{c.s2_responsible_title}</h3>
             <p className="font-body text-foreground/80 leading-relaxed mb-2">{c.s2_responsible_intro}</p>
-            <div className="font-body text-foreground/80 leading-relaxed mb-4 pl-4 border-l-2 border-temple-gold">
+            <div className="font-body text-foreground/80 leading-relaxed mb-4 ps-4 border-s-2 border-temple-gold">
               <p>Becker Innovation</p>
               <p>Mutschellenstrasse 163</p>
               <p>8038 Z&uuml;rich</p>
@@ -68,7 +73,7 @@ const Privacy = () => {
             <p className="font-body text-foreground/80 leading-relaxed mb-4">{c.s2_access_text}</p>
             <h3 className="font-display text-lg font-semibold text-temple-midnight mt-6 mb-2">{c.s2_restriction_title}</h3>
             <p className="font-body text-foreground/80 leading-relaxed mb-4">{c.s2_restriction_intro}</p>
-            <ul className="list-disc pl-6 font-body text-foreground/80 leading-relaxed mb-4 space-y-2">
+            <ul className="list-disc ps-6 font-body text-foreground/80 leading-relaxed mb-4 space-y-2">
               <li>{c.s2_restriction_li1}</li>
               <li>{c.s2_restriction_li2}</li>
               <li>{c.s2_restriction_li3}</li>
@@ -89,7 +94,7 @@ const Privacy = () => {
             <p className="font-body text-foreground/80 leading-relaxed mb-4">{c.s3_cookies_text4}</p>
             <h3 className="font-display text-lg font-semibold text-temple-midnight mt-6 mb-2">{c.s3_logs_title}</h3>
             <p className="font-body text-foreground/80 leading-relaxed mb-4">{c.s3_logs_intro}</p>
-            <ul className="list-disc pl-6 font-body text-foreground/80 leading-relaxed mb-4 space-y-1">
+            <ul className="list-disc ps-6 font-body text-foreground/80 leading-relaxed mb-4 space-y-1">
               {c.s3_logs_items.map((item, i) => <li key={i}>{item}</li>)}
             </ul>
             <p className="font-body text-foreground/80 leading-relaxed mb-4">{c.s3_logs_closing}</p>

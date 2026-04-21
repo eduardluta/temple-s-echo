@@ -69,9 +69,9 @@ export default {
         },
       },
       fontFamily: {
-        display: ["var(--font-display)", "Georgia", "serif"],
-        body: ["var(--font-body)", "Georgia", "serif"],
-        ui: ["var(--font-ui)", "system-ui", "sans-serif"],
+        display: ["var(--font-display)", "Frank Ruhl Libre", "Georgia", "serif"],
+        body: ["var(--font-body)", "Frank Ruhl Libre", "Georgia", "serif"],
+        ui: ["var(--font-ui)", "Heebo", "system-ui", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",

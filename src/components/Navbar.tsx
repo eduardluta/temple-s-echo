@@ -1,16 +1,13 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Globe } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import LanguageSelector from "./LanguageSelector";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const { pathname } = useLocation();
   const { t, i18n } = useTranslation();
-
-  const toggleLang = () => {
-    i18n.changeLanguage(i18n.language === "de" ? "en" : "de");
-  };
 
   const links = [
     { to: "/", label: t("nav.home") },
@@ -52,18 +49,11 @@ const Navbar = () => {
           ))}
 
           {/* Language switcher */}
-          <button
-            onClick={toggleLang}
-            className="flex items-center gap-1.5 text-sm tracking-wider uppercase text-temple-on-dark/70 hover:text-temple-gold transition-colors"
-            aria-label="Switch language"
-          >
-            <Globe size={15} />
-            <span>{i18n.language === "de" ? "EN" : "DE"}</span>
-          </button>
+          <LanguageSelector />
 
           <Link
             to="/story"
-            className="ml-4 px-5 py-2 text-sm font-ui uppercase tracking-wider bg-gradient-to-r from-temple-gold to-temple-gold-light text-temple-midnight font-semibold rounded transition-opacity hover:opacity-90 shadow-gold"
+            className="ms-4 px-5 py-2 text-sm font-ui uppercase tracking-wider bg-gradient-to-r from-temple-gold to-temple-gold-light text-temple-midnight font-semibold rounded transition-opacity hover:opacity-90 shadow-gold"
           >
             {t("nav.readTheStory")}
           </Link>
@@ -93,13 +83,7 @@ const Navbar = () => {
               {l.label}
             </Link>
           ))}
-          <button
-            onClick={toggleLang}
-            className="flex items-center gap-1.5 text-sm uppercase tracking-wider text-temple-on-dark/80 hover:text-temple-gold transition-colors"
-          >
-            <Globe size={15} />
-            <span>{i18n.language === "de" ? "EN" : "DE"}</span>
-          </button>
+          <LanguageSelector variant="mobile" />
         </div>
       )}
     </nav>

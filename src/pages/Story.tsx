@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import storyContentDE from "@/data/story-content-de";
 import storyContentEN from "@/data/story-content-en";
+import storyContentHE from "@/data/story-content-he";
 
 const base = import.meta.env.BASE_URL;
 
@@ -36,7 +37,12 @@ const sceneImages: Record<string, string | string[] | undefined> = {
 
 const Story = () => {
   const { i18n, t } = useTranslation();
-  const content = i18n.language === "de" ? storyContentDE : storyContentEN;
+  const content =
+    i18n.language === "de"
+      ? storyContentDE
+      : i18n.language === "he"
+      ? storyContentHE
+      : storyContentEN;
 
   return (
     <div className="min-h-screen bg-background">
@@ -77,7 +83,7 @@ const Story = () => {
                     {scene.title}
                   </h2>
                   {scene.subtitle && (
-                    <span className="font-display italic text-temple-gold text-sm md:text-base ml-auto whitespace-nowrap">
+                    <span className="font-display italic text-temple-gold text-sm md:text-base ms-auto whitespace-nowrap">
                       {scene.subtitle}
                     </span>
                   )}
@@ -87,7 +93,7 @@ const Story = () => {
                 {Array.isArray(img) ? (
                   <div className="flex gap-0 rounded overflow-hidden border border-temple-gold/20 mb-6 aspect-video">
                     {img.map((src, j) => (
-                      <img key={j} src={src} alt={scene.title} className="w-1/2 h-full object-cover" style={j > 0 ? { borderLeft: "2px solid rgba(201,168,76,0.3)" } : {}} />
+                      <img key={j} src={src} alt={scene.title} className={`w-1/2 h-full object-cover ${j > 0 ? "border-s-2 border-temple-gold/30" : ""}`} />
                     ))}
                   </div>
                 ) : img ? (
