@@ -9,10 +9,11 @@ import {
 
 type LangCode = "de" | "en" | "he";
 
+// Hebrew translations exist in the codebase but are hidden from the UI
+// until the client approves them. Re-add { code: "he", ... } below to re-enable.
 const languages: { code: LangCode; label: string; short: string; native: string }[] = [
   { code: "de", label: "Deutsch", short: "DE", native: "Deutsch" },
   { code: "en", label: "English", short: "EN", native: "English" },
-  { code: "he", label: "עברית", short: "עב", native: "עברית" },
 ];
 
 type Props = {
